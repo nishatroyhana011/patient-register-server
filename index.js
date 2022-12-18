@@ -58,7 +58,7 @@ async function run(){
             const patient =  await patientCollection.count(query);
             const pcount = [patient]
             res.send(pcount)
-        })
+        });
         
     }catch{
 
